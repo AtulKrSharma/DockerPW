@@ -14,4 +14,5 @@ jobs:
         with:
           node-version: lts/*
       - name: Set up Docker
-        run: docker run --rm sharmaatulkumar29/playwright-tests
+        run: docker run --rm playwright-tests
+        
