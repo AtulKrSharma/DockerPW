@@ -15,7 +15,7 @@ jobs:
     steps:
       # Step 1: Checkout the code from your repository
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       # Step 2: Log in to Docker Hub using GitHub Secrets
       - name: Log in to Docker Hub
